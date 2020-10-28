@@ -1,4 +1,6 @@
 # Modfied bling.js for better JS WorkFlow
+Link to Pen : https://codepen.io/singhkunal2050/pen/pobWgeY?editors=1111
+
 
     window.$ = document.querySelector.bind(document);
     window.$$ = document.querySelectorAll.bind(document);
