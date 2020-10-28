@@ -60,4 +60,4 @@
 
 // With Modified Bling JS
 
-    $('.yolo').on('click' , () => alert('I was clicked but you sweat less 😋') )
+    $$('.yolo').on('click' , () => alert('I was clicked but you sweat less 😋') )
