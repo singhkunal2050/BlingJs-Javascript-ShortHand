@@ -15,32 +15,32 @@
       });
     }
 
-// jquery can be an overkill for some projects where you are just craving the jquery shorthands
-// heres an amazing 11 lines of code by bling.js which can make ur life way easier in writing javascript
-// theres one addition to the library which was added by wes bos  supposedly you can check his presentation heres
-// https://wesbos.github.io/just-javascript/#1
+## jquery can be an overkill for some projects where you are just craving the jquery shorthands
+## heres an amazing 11 lines of code by bling.js which can make ur life way easier in writing javascript
+## theres one addition to the library which was added by wes bos  supposedly you can check his presentation heres
+## https:##wesbos.github.io/just-javascript/#1
 
-// impoprted bling js mini library above lets use it
+## impoprted bling js mini library above lets use it
 
-// $('button').on('click', el => alert('safa'));
-    console.log($('main'))       // gets single element
+## $('button').on('click', el => alert('safa'));
+    console.log($('main'))       ## gets single element
 
-// Instead of using
+## Instead of using
     document.getElementById('mybutton').addEventListener('click' , () => {
       document.querySelector('section').style.background="cyan";
-      // console.log('hhoveriing')
+      ## console.log('hhoveriing')
     });
 
-// write this
+## write this
     $('#mybutton').on('click' , () => {
       $('main').style.background = "purple";
     });
 
 
-// NodeList.prototype.__proto__ = Array.prototype;
-// This Gives us all array functions to use in our NodeLists
-// like map filter etc
-// sweet isnt it
+## NodeList.prototype.__proto__ = Array.prototype;
+## This Gives us all array functions to use in our NodeLists
+## like map filter etc
+## sweet isnt it
 
     let i = 1;
     $$('p').map(single_p => {
@@ -49,15 +49,15 @@
     });
 
 
-// Earlier we use to Use Huge syntax for adding event listeners to multiple buttons of the same class
-// not anymore
+## Earlier we use to Use Huge syntax for adding event listeners to multiple buttons of the same class
+## not anymore
 
-// Earlier we wrote
+## Earlier we wrote
 
     document.querySelectorAll('.yolo').forEach((btn) => {
       btn.addEventListener('click' , () => alert('I was clicked 😋'))
     });
 
-// With Modified Bling JS
+## With Modified Bling JS
 
     $('.yolo').on('click' , () => alert('I was clicked but you sweat less 😋') )
