@@ -1,4 +1,4 @@
-/* bling.js */
+# Modfied bling.js for better JS WorkFlow
 
     window.$ = document.querySelector.bind(document);
     window.$$ = document.querySelectorAll.bind(document);
