@@ -18,10 +18,10 @@ Source of Inspiration : https://wesbos.github.io/just-javascript/
       });
     }
 
-#### jquery can be an overkill for some projects where you are just craving the jquery shorthands
-#### heres an amazing 11 lines of code by bling.js which can make ur life way easier in writing javascript
-#### theres one addition to the library which was added by wes bos  supposedly you can check his presentation heres
-#### https:##wesbos.github.io/just-javascript/#1
+#### Jquery can be an overkill for some projects where you are just craving the jquery shorthands
+#### Heres an amazing 11 lines of code by bling.js which can make ur life way easier in writing javascript
+#### Theres one addition to the library which was added by wes bos  supposedly you can check his presentation heres
+#### Link to a presentaion by wes bos https://wesbos.github.io/just-javascript/#1
 
 ## impoprted bling js mini library above lets use it
 
